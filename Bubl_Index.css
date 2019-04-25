@@ -1,0 +1,12 @@
+.container-product-page {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+}
+
+a{
+    color:  black;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+}
