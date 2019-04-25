@@ -1,0 +1,14 @@
+.side-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+}
