@@ -1,14 +1,25 @@
 .side-container{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 
 .right-side{
     display: flex;
     flex-direction: column;
+    
 }
 
 .left-side{
     display: flex;
     flex-direction: column;
 }
+
+.Profile-info{
+    
+}
+
+.title{
+    text-align: center;
+}
+
