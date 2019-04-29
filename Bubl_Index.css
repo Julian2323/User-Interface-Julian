@@ -16,20 +16,29 @@ html {
 }
 
 button {
-    
+    cursor: pointer;
     background-color: Transparent;
-    border-radius: 32%;
-    width: 90px;
+    border-radius: 48%;
+    width: 120px;
+    height: 30px;
     border: 1px solid black;
+    margin-top: 20px;
     
   
+}
+
+.Nav{
+    display: flex;
+    align-content: space-between;
+    margin-top: 300px;
 }
 
 .Nav-header {
     display: flex;
     flex-direction: column;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
     padding-right: 20px;
+    margin-bottom: 0px;
     
 }
 
@@ -37,6 +46,9 @@ button {
     display: flex;
     flex-direction: column;
     padding-left: 200px;
+    align-items: baseline;
+    margin-top: 200px;
+    
 }
 
 .Welcome h1 {
