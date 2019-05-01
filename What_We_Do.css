@@ -1,0 +1,17 @@
+.container_What_We_Do-page {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a{
+    color:  black;
+    text-decoration: #F9F871;
+}
+
+html {
+    background: linear-gradient(90deg, #FF885E 25%, #F9F871 25%);
+}
+
