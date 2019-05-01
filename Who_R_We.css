@@ -1,3 +1,66 @@
+.container_Who_R_We-page{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    width: 1280px;
+    margin: 0 auto;
+}
+
+a{
+    color:  black;
+    text-decoration: #F9F871;
+    margin: 10px 0;
+}
+
+html {
+    background: linear-gradient(90deg, #FF885E 25%, #F9F871 25%);
+}
+
+.Nav{
+    width: 100%;
+    margin-top: 300px;
+}
+
+
+.Nav-header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    
+}
+
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+
+.left-side{
+    margin-right: 100px;
+}
+
+.right-side{
+    margin-right:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .side-container{
     display: flex;
     flex-direction: row;
