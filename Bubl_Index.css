@@ -9,6 +9,7 @@
 a{
     color:  black;
     text-decoration: #F9F871;
+    margin: 10px 0;
 }
 
 html {
@@ -28,8 +29,7 @@ button {
 }
 
 .Nav{
-    display: flex;
-    align-content: space-between;
+    width: 100%;
     margin-top: 300px;
 }
 
@@ -46,12 +46,12 @@ button {
     display: flex;
     flex-direction: column;
     padding-left: 200px;
-    align-items: baseline;
     margin-top: 200px;
     
 }
 
 .Welcome h1 {
     text-align: center;
+    
 }
 
