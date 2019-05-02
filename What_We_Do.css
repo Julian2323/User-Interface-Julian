@@ -9,6 +9,9 @@
 a{
     color:  black;
     text-decoration: #F9F871;
+    border-bottom: 1px solid black;
+    width: 25%;
+    margin: 10px 0;
 }
 
 html {
@@ -27,5 +30,22 @@ html {
     padding-bottom: 20px;
     padding-right: 20px;
     margin-bottom: 0px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 200px;
+    margin-top: 200px;
+}
+
+.Top h1{
+    text-align: center;
+}
+
+table{
+    margin-top: 40px;
     
 }
