@@ -12,6 +12,19 @@ a{
     margin: 10px 0;
     border-bottom: 1px solid black;
     width: 22.5%;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size:1.25rem;
+}
+
+p{
+    font-size:1rem;
 }
 
 html {
@@ -51,18 +64,6 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 .side-container{
     display: flex;
     flex-direction: row;
@@ -97,4 +98,67 @@ html {
     width: 70%;
     height: 70%;
     margin-right: 20px;
+}
+
+
+@media(max-width: 500px) {
+    .container_Who_R_We-page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .Nav-header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 0;
+        width:110%;
+        top:0;
+        
+    }
+}
+
+@media(max-width:500px) {
+    .side-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 300px;
+    }
+}
+
+@media(max-width:500px) {
+    .profile-container{
+        display:flex;
+        flex-direction: row;
+    }
+}
+
+@media(max-width:500px) {
+    .profile{
+        width:40%;
+    }
+}
+
+@media(max-width:500px) {
+    .mini-container h1 {
+        margin-right: 600px;
+        margin-bottom: 100px;
+    }
+}
+
+@media(max-width:500px) {
+    .right-side{
+        margin-right:113px;
+    }
+}
+
+@media(max-width:500px) {
+    a {
+        padding: 10px;
+        border-right: 1px solid black;
+    }
 }
