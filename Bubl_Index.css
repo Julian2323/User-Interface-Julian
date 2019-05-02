@@ -57,3 +57,69 @@ button {
     
 }
 
+@media(max-width: 500px) {
+    html{
+        background: #FF885E;
+    }
+}
+
+@media(max-width: 500px) {
+    .container-product-page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .Nav-header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 0;
+        width:110%;
+        top:0;
+        
+    }
+}
+
+@media(max-width: 500px) {
+    .Welcome{
+        margin-left: 0px;
+        padding: 0;
+        width: 50%;
+
+    }
+}
+
+@media(max-width:500px) {
+    button{
+        margin-left: 100px;
+        padding: 0px;
+        margin-bottom: 200px;
+        
+    }
+}
+
+@media(max-width:500px) {
+    .Welcome h1 {
+        margin-left: 100px;
+        width:100%;
+        
+    }
+}
+
+@media(max-width:500px) {
+    .Welcome h2 {
+        
+        margin-left: 125px;
+        
+    }
+}
+
+@media(max-width:500px) {
+    a{
+        padding: 5px;
+    
+    }
+}
