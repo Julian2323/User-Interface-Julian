@@ -11,6 +11,7 @@ a{
     text-decoration: #F9F871;
     margin: 10px 0;
     border-bottom: 1px solid black;
+    border-right: 1px solid black;
     width: 130px;
 }
 
@@ -60,6 +61,7 @@ button {
 
 .Welcome h2 {
     margin-right: 100px;
+    width: 100%;
 }
 
 @media(max-width: 500px) {
