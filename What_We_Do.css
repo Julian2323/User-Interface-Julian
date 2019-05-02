@@ -12,6 +12,7 @@ a{
     border-bottom: 1px solid black;
     width: 25%;
     margin: 10px 0;
+    font-size: 1rem;
 }
 
 html {
@@ -43,6 +44,11 @@ html {
 
 .Top h1{
     text-align: center;
+    font-size: 2rem;
+}
+
+.Top h2 {
+    font-size: 1.25rem;
 }
 
 table{
@@ -52,4 +58,40 @@ table{
     padding: 20px;
     border-spacing: 50px 100px;
     background-color: lightgrey;
+}
+
+
+@media(max-width: 500px) {
+    .container_What_We_Do-page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media(max-width: 500px) {
+    .Nav-header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 0;
+        width:110%;
+        top:0;
+        
+    }
+}
+
+@media(max-width:500px) {
+    table {
+        margin:0;
+        padding:0;
+        border-spacing: 10px 50px;
+    }
+}
+
+@media(max-width:500px) {
+    a {
+        padding: 10px;
+        border-right: 1px solid black;
+    }
 }

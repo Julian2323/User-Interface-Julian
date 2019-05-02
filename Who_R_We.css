@@ -12,6 +12,19 @@ a{
     margin: 10px 0;
     border-bottom: 1px solid black;
     width: 22.5%;
+    font-size: 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size:1.25rem;
+}
+
+p{
+    font-size:1rem;
 }
 
 html {
@@ -140,5 +153,12 @@ html {
 @media(max-width:500px) {
     .right-side{
         margin-right:113px;
+    }
+}
+
+@media(max-width:500px) {
+    a {
+        padding: 10px;
+        border-right: 1px solid black;
     }
 }
