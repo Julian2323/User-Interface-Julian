@@ -36,7 +36,7 @@ html {
 .mini-container{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 1000px;
     margin-top: 100px;
     margin-right: 200px;
 }
@@ -88,3 +88,13 @@ html {
     text-align: center;
 }
 
+.profile-container{
+    display: flex;
+    margin-right: 80px;
+}
+
+.profile{
+    width: 70%;
+    height: 70%;
+    margin-right: 20px;
+}

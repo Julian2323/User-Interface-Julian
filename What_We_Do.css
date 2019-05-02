@@ -38,7 +38,7 @@ html {
     flex-direction: column;
     width: 100%;
     margin-right: 200px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 
 .Top h1{
@@ -46,6 +46,10 @@ html {
 }
 
 table{
-    margin-top: 40px;
-    
+    margin-top: 80px;
+    margin-left: 0px;
+    border: 1px solid black;
+    padding: 20px;
+    border-spacing: 50px 100px;
+    background-color: lightgrey;
 }
