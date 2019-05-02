@@ -9,6 +9,9 @@
 a{
     color:  black;
     text-decoration: #F9F871;
+    border-bottom: 1px solid black;
+    width: 25%;
+    margin: 10px 0;
 }
 
 html {
@@ -28,4 +31,25 @@ html {
     padding-right: 20px;
     margin-bottom: 0px;
     
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 200px;
+    margin-top: 150px;
+}
+
+.Top h1{
+    text-align: center;
+}
+
+table{
+    margin-top: 80px;
+    margin-left: 0px;
+    border: 1px solid black;
+    padding: 20px;
+    border-spacing: 50px 100px;
+    background-color: lightgrey;
 }
