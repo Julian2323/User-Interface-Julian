@@ -47,14 +47,19 @@ button {
 .Welcome{
     display: flex;
     flex-direction: column;
-    padding-left: 200px;
+    padding-right: 300px;
     margin-top: 200px;
+    width: 500px;
     
 }
 
 .Welcome h1 {
     text-align: center;
-    
+    margin-right: 125px;
+}
+
+.Welcome h2 {
+    margin-right: 100px;
 }
 
 @media(max-width: 500px) {
