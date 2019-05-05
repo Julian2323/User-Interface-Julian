@@ -20,7 +20,7 @@ body {
     background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
     background-repeat: no-repeat;
     height: 100vh;
-    margin: 0px;
+
 }
 
 button {
@@ -84,11 +84,13 @@ button {
 @media(max-width: 1024px) {
     .container-product-page {
         display: flex;
+
         flex-direction: row;
         width: 1024px;
         margin-bottom: 0px;
     }
 }
+
 
 
 @media(max-width: 1024px) {
