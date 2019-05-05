@@ -16,8 +16,11 @@ a{
     
 }
 
-html {
+body {
     background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+    background-repeat: no-repeat;
+    height: 100vh;
+
 }
 
 button {
@@ -27,15 +30,13 @@ button {
     width: 120px;
     height: 30px;
     border: 1px solid white;
-    margin-top: 20px;
-    margin-left: 160px;
-    
-  
+
 }
 
 .Nav{
-    width: 100%;
+    width: 1480px;
     margin-top: 250px;
+    margin-left: 50px;
 }
 
 .Nav-header {
@@ -51,103 +52,30 @@ button {
 .Welcome{
     display: flex;
     flex-direction: column;
-    padding-right: 300px;
-    margin-top: 200px;
-    margin-right:200px;
-    width: 500px;
+    align-items: center;
+    width: 1180px;
+    padding-top: 250px;
+    padding-right: 100px;
+    
     
 }
 
 .Welcome h1 {
     text-align: center;
-    margin-right: 400px;
-    margin-left: 200px;
+    width:1180px;
+    padding-right: 40px;
     
 }
 
-.Welcome h2 {
-    text-align: center;
-    margin-right: 0px;
-    width: 100%;
+.Welcome .test {
+    margin-right: 50px;
+    align-items: center;
 }
 
-
-/*MOBILE*/
-
-
-@media(max-width: 500px) {
-    html{
-        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
-
-    }
+.Welcome .button {
+    margin-top: 50px;
+    padding-right: 40px;
 }
-
-@media(max-width: 500px) {
-    .container-product-page {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-}
-
-@media(max-width: 500px) {
-    .Nav-header{
-        display: flex;
-        flex-direction: row;
-        margin-top: 20px;
-        padding: 0;
-        width:110%;
-        top:0;
-        
-    }
-}
-
-@media(max-width: 500px) {
-    .Welcome{
-        margin-left: 0px;
-        padding: 0;
-        width: 50%;
-
-    }
-}
-
-@media(max-width:500px) {
-    button{
-        margin-left: 100px;
-        padding: 0px;
-        margin-bottom: 200px;
-        
-    }
-}
-
-@media(max-width:500px) {
-    .Welcome h1 {
-        margin-left: 100px;
-        width:100%;
-        
-    }
-}
-
-@media(max-width:500px) {
-    .Welcome h2 {
-        
-        margin-left: 125px;
-        
-    }
-}
-
-@media(max-width:500px) {
-    a{
-        padding: 10px;
-        border-right: 2px solid white;
-
-    
-    }
-}
-
-
-
-
 
 
 /*TABLET*/
@@ -157,16 +85,21 @@ button {
 @media(max-width: 1024px) {
     .container-product-page {
         display: flex;
+
         flex-direction: row;
-        width: 100%;
+        width: 1024px;
         margin-bottom: 0px;
     }
 }
 
 
+
 @media(max-width: 1024px) {
-    html {
+    body {
         background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
     }
 }
 
@@ -178,50 +111,116 @@ button {
 
 @media(max-width:1024px) {
     .Nav-header {
-        margin-bottom:100px;
-        width:100%;
-    
+        margin-bottom:0px;
+        
+    }
+    .Nav {
+        width: 512px;
     }
 }
 
 
 @media(max-width:1024px) {
     .Welcome{
-        margin-right: 50px;
-        width:100%;
+        margin-right: 0px;
+        width:512px;
+        padding-right:230px;
+        margin-top: 50px;
 
     }
 }
 
 @media(max-width:1024px) {
-    .Welcome h1 {
-        margin-bottom: 20px;
-        margin-left: 275px;
+    .Welcome .h1 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        padding-right: 0px;
+        padding-left: 25px;
     
     }
 }
 
 @media(max-width:1024px) {
-    .Welcome h2 {
+    .Welcome .test {
         text-align: left;
-        margin-bottom: 200px;
-        margin-left: 80px;
-        margin-right:70px;
-        width:100%;
+        margin:0px;
+        padding-left: 30px;
+        
     }
 }
 
 @media(max-width:1024px) {
-    button {
-        margin-left: 150px;
-        width: 300px;
+    .Welcome .button {
+        margin: 0px;
+        width: 100px;
+        padding-top: 50px;
+        padding-right: 23px;
+        
     }
 }
 
-@media(max-width:1024px) {
-    .test {
-        display:flex;
+
+
+
+
+/*MOBILE*/
+
+
+@media(max-width: 500px) {
+    body {
+        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+    }
+    a {
+        padding: 5px;
+        margin: 0px;
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .container-product-page {
+        display: flex;
         flex-direction: column;
-        width:100%;
+        max-width: 500px;
+        margin: 0px;
     }
 }
+
+@media(max-width:500px) {
+    .Nav{
+        margin:0px;
+        width: 500px;
+    }
+    .Nav-header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 5px;
+        padding: 0;
+        top:0;
+      
+    }
+}
+
+
+@media(max-width: 500px) {
+    .Welcome{
+        margin-left: 50px;
+        margin-right:0px;
+        padding: 0;
+        width: 400px;
+
+    }
+    .Welcome .h1 {
+        margin-left: 0px;
+    }
+    .Welcome .test {
+        
+        margin-left: 0px;
+    }
+}
+
