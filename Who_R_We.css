@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     margin-top: 100px;
     margin-right: 0px;
-    margin-left: 200px;
+    margin-left: 300px;
     width:400px;
 }
 
@@ -214,13 +214,13 @@ body {
 @media(max-width:500px) {
     .Nav{
         margin:0px;
-        width: 400px;
+        width: 500px;
     }
     .Nav-header{
         display: flex;
         flex-direction: row;
         margin-top: 20px;
-        padding: 0;
+        padding: 5px;
         top:0;
     }
 }
@@ -229,6 +229,7 @@ body {
     .mini-container {
         margin: 0px;
         margin-top: 50px;
+        margin-left: 50px;
         width:500px;
         align-items: center;
     }

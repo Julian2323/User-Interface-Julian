@@ -17,15 +17,28 @@ a{
     
 }
 
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size:1.25rem;
+}
+
+p{
+    font-size:1rem;
+}
+
 body {
     background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0px;
 }
 
 .Nav{
-    width: 100%;
-    margin-top: 300px;
+    margin-top: 250px;
+    margin-left: 0px;
 }
 
 
@@ -34,59 +47,137 @@ body {
     flex-direction: column;
     padding-bottom: 20px;
     padding-right: 20px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px; 
 }
 
 .content{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin-right: 200px;
-    margin-top: 150px;
+    align-items: center;
+    
 }
-
-.Top h1{
+.Top{
+    margin-right: 150px;
+}
+ .Top h1 {
     text-align: center;
-    font-size: 2rem;
-}
-
-.Top h2 {
-    font-size: 1.25rem;
-}
+ }
 
 table{
-    margin-top: 80px;
+    margin-top: 200px;
     margin-left: 0px;
     margin-bottom:30px;
     border: 1px solid black;
     padding: 20px;
-    border-spacing: 50px 100px;
+    border-spacing: 25px 20px;
     background-color: lightgrey;
+
 }
 
-.content{
-    margin-top:40px;
-    margin-right:300px;
+
+
+
+
+
+/*TABLET*/
+
+
+@media(max-width: 1024px) {
+    .container_What_We_Do-page {
+        display: flex;
+        flex-direction: row;
+        width:1024; 
+        margin: 0px;
+    }
+
+    body {
+        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+    }
+
+    a {
+        padding: 20px;
+    }
+
+    table {
+        margin: 0px;
+    }
+
+    .content {
+        width: 512px;
+        margin: 0px;
+        margin-bottom: 0px; 
+        margin-top: 150px;
+        margin-right: 150px;
+        padding: 0px;
+    }
+
+    .Top {
+        margin:0px;
+        padding: 0px;
+    }
 }
+
+@media(max-width:1024px) {
+    .Nav-header {
+        margin-bottom:0px;
+        
+    }
+    .Nav {
+        width: 300px;
+    }
+}
+
+
+
+
+
+/*MOBILE*/
 
 @media(max-width: 500px) {
     .container_What_We_Do-page {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 500px;
+        margin: 0px;
     }
 }
 
 @media(max-width: 500px) {
-    .Nav-header{
+    body {
+        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+    }
+    a {
+        padding: 5px;
+        margin: 0px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:500px) {
+    .Nav {
+        margin:0px;
+        width: 500px;
+    }
+    .Nav-header { 
         display: flex;
         flex-direction: row;
         margin-top: 20px;
-        padding: 0;
-        width:110%;
+        padding: 5px;
         top:0;
-        
+    }
+    .content {
+        width: 500px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .Top {
+        width: 450px;
     }
 }
 
@@ -95,12 +186,6 @@ table{
         margin:0;
         padding:0;
         border-spacing: 10px 50px;
-    }
-}
-
-@media(max-width:500px) {
-    a {
-        padding: 10px;
-        border-right: 1px solid black;
+        width: 300px;
     }
 }
