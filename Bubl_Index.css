@@ -121,7 +121,7 @@ button {
     .Welcome{
         margin-right: 0px;
         width:512px;
-        padding-right:230px;
+        padding-right:200px;
         margin-top: 50px;
 
     }
@@ -131,10 +131,16 @@ button {
     .Welcome .h1 {
         margin-bottom: 0px;
         margin-left: 0px;
+        margin-right: 0px;
         padding-right: 0px;
-        padding-left: 25px;
+        padding-left: 0px;
+        width: 600px;
     
     }
+    .Welcome h1 {
+        width: 600px; 
+    }
+    
 }
 
 @media(max-width:1024px) {
@@ -214,10 +220,16 @@ button {
     }
     .Welcome .h1 {
         margin-left: 0px;
+        width: 500px;
     }
     .Welcome .test {
         
         margin-left: 0px;
     }
+    .Welcome h1 {
+        width: 500px; 
+        padding: 0px;
+    }
+    
 }
 
