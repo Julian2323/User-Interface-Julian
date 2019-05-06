@@ -86,7 +86,7 @@ table{
     .container_What_We_Do-page {
         display: flex;
         flex-direction: row;
-        width:1024; 
+        width:1024px; 
         margin: 0px;
     }
 
