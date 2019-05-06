@@ -2,11 +2,237 @@
     display: flex;
     flex-direction: row;
     justify-items: center;
+    width: 1480px;
+    margin: 0 auto;
 }
 
 a{
     color:  black;
     text-decoration: none;
-    padding: 20px;
-    margin: 20px;
+    margin: 10px 0;
+    border-bottom: 2px solid white;
+    width: 150px;
+    padding: 10px;
+    
 }
+
+body {
+    background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: Transparent;
+    border-radius: 48%;
+    width: 120px;
+    height: 30px;
+    border: 1px solid white;
+
+}
+
+.Nav{
+    width: 1480px;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+.Nav-header {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    margin-left:40px;
+    
+}
+
+.Welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1180px;
+    padding-top: 250px;
+    padding-right: 100px;
+    
+    
+}
+
+.Welcome h1 {
+    text-align: center;
+    width:1180px;
+    padding-right: 40px;
+    
+}
+
+.Welcome .test {
+    margin-right: 50px;
+    align-items: center;
+}
+
+.Welcome .button {
+    margin-top: 50px;
+    padding-right: 40px;
+}
+
+
+/*TABLET*/
+
+
+
+@media(max-width: 1024px) {
+    .container-product-page {
+        display: flex;
+
+        flex-direction: row;
+        width: 1024px;
+        margin-bottom: 0px;
+    }
+}
+
+
+
+@media(max-width: 1024px) {
+    body {
+        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+    }
+}
+
+@media(max-width:1024px) {
+    a {
+        padding: 20px;
+    }
+}
+
+@media(max-width:1024px) {
+    .Nav-header {
+        margin-bottom:0px;
+        
+    }
+    .Nav {
+        width: 512px;
+    }
+}
+
+
+@media(max-width:1024px) {
+    .Welcome{
+        margin-right: 0px;
+        width:512px;
+        padding-right:200px;
+        margin-top: 50px;
+
+    }
+}
+
+@media(max-width:1024px) {
+    .Welcome .h1 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+        width: 600px;
+    
+    }
+    .Welcome h1 {
+        width: 600px; 
+    }
+    
+}
+
+@media(max-width:1024px) {
+    .Welcome .test {
+        text-align: left;
+        margin:0px;
+        padding-left: 30px;
+        
+    }
+}
+
+@media(max-width:1024px) {
+    .Welcome .button {
+        margin: 0px;
+        width: 100px;
+        padding-top: 50px;
+        padding-right: 23px;
+        
+    }
+}
+
+
+
+
+
+/*MOBILE*/
+
+
+@media(max-width: 500px) {
+    body {
+        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+    }
+    a {
+        padding: 5px;
+        margin: 0px;
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 500px) {
+    .container-product-page {
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        margin: 0px;
+    }
+}
+
+@media(max-width:500px) {
+    .Nav{
+        margin:0px;
+        width: 500px;
+    }
+    .Nav-header{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        padding: 5px;
+        padding: 0;
+        top:0;
+      
+    }
+}
+
+
+@media(max-width: 500px) {
+    .Welcome{
+        margin-left: 50px;
+        margin-right:0px;
+        padding: 0;
+        width: 400px;
+
+    }
+    .Welcome .h1 {
+        margin-left: 0px;
+        width: 500px;
+    }
+    .Welcome .test {
+        
+        margin-left: 0px;
+    }
+    .Welcome h1 {
+        width: 500px; 
+        padding: 0px;
+    }
+    
+}
+
