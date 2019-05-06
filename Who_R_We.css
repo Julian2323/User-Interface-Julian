@@ -32,11 +32,21 @@ body {
     background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
     background-repeat: no-repeat;
     height: 100vh;
+    margin: 0px;
+}
+
+.mini-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-right: 0px;
+    margin-left: 300px;
+    width:400px;
 }
 
 .Nav{
-    width: 100%;
-    margin-top: 300px;
+    margin-top: 250px;
+    margin-left: 0px;
 }
 
 
@@ -45,51 +55,33 @@ body {
     flex-direction: column;
     padding-bottom: 20px;
     padding-right: 20px;
-    margin-bottom: 0px;
-    
+    margin-bottom: 0px; 
 }
-
-.mini-container{
-    display: flex;
-    flex-direction: column;
-    width: 1000px;
-    margin-top: 100px;
-    margin-right: 350px;
-}
-
-.left-side{
-    margin-right: 100px;
-}
-
-.right-side{
-    margin-right:0px;
-}
-
-
 
 .side-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    margin-top: 30px;
+    align-items: center;
 }
 
 .right-side{
     display: flex;
     flex-direction: column;
+    margin-right:0px;
+    margin-top:0px;
     
 }
 
 .left-side{
     display: flex;
     flex-direction: column;
-}
-
-.Profile-info{
-    
+    margin-right: 100px;
 }
 
 .title{
     text-align: center;
+    padding-right: 0px;
 }
 
 .profile-container{
@@ -98,70 +90,203 @@ body {
 }
 
 .profile{
-    width: 70%;
-    height: 70%;
+    width: 50%;
+    height: 50%;
     margin-right: 20px;
 }
 
+    .profile-container2 {
+        display:flex;
+        flex-direction: row;
+        margin:0px;
+        padding-right:10px;
+    }
+    .Profile-name2 {
+        margin-right:10px;
+        padding-right:10px;
+    }
+
+
+
+
+
+
+
+
+
+
+/*Tablet*/
+
+@media(max-width: 1024px) {
+    .container_Who_R_We-page {
+        display: flex;
+        flex-direction: row;
+        width: 1024px;
+        margin-bottom: 0px;
+    }
+}
+
+@media(max-width: 1024px) {
+    body {
+        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+    }
+}
+
+@media(max-width:1024px) {
+    a {
+        padding: 20px;
+    }
+}
+
+@media(max-width:1024px) {
+    .Nav-header {
+        margin-bottom:0px;
+        
+    }
+    .Nav {
+        width: 512px;
+    }
+}
+
+@media(max-width:1024px) {
+    .mini-container{
+        margin-right: 500px;
+        margin-top: 100px;
+        margin-left: 125px;
+        padding: 0px;
+    }
+
+    .right-side{
+        margin-top: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
 
 @media(max-width: 500px) {
     .container_Who_R_We-page {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 500px;
+        margin: 0px;
     }
 }
 
 @media(max-width: 500px) {
+    body {
+        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
+        background-repeat: no-repeat;
+        height: 100vh;
+        margin: 0px;
+    }
+    a {
+        padding: 5px;
+        margin: 0px;
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width:500px) {
+    .Nav{
+        margin:0px;
+        width: 500px;
+    }
     .Nav-header{
         display: flex;
         flex-direction: row;
         margin-top: 20px;
-        padding: 0;
-        width:110%;
+        padding: 5px;
         top:0;
-        
+    }
+}
+
+@media(max-width:500px) {
+    .mini-container {
+        margin: 0px;
+        margin-top: 50px;
+        margin-left: 70px;
+        padding: 0px;
+        width:400px;
+        align-items: center;
+    }
+}
+
+@media(max-width:500px) {
+    .title {
+        margin: 0px;
+        margin-bottom: 50px;
+        padding:0px;
+        padding-right: 60px;
+        width:400px;
     }
 }
 
 @media(max-width:500px) {
     .side-container{
         display:flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        margin-right: 300px;
+        margin: 0px;
+        margin-right:20px;
+    }
+    .right-side {
+        margin:0px;
+        padding:0px;
+        width:200px;
+    }
+    .left-side {
+        margin:0px;
+        padding:0px;
+        width:200px;
     }
 }
 
+
+
+
 @media(max-width:500px) {
-    .profile-container{
+    .profile-container {
         display:flex;
         flex-direction: row;
+        margin-right:40px;
     }
-}
-
-@media(max-width:500px) {
-    .profile{
+    .profile-container2 {
+        display:flex;
+        flex-direction: row;
+        margin:0px;
+        padding-right:10px;
+    }
+    .Profile-name2 {
+        margin-right:10px;
+        padding-right:10px;
+    }
+    .profile {
         width:40%;
-    }
-}
-
-@media(max-width:500px) {
-    .mini-container h1 {
-        margin-right: 600px;
-        margin-bottom: 100px;
-    }
-}
-
-@media(max-width:500px) {
-    .right-side{
-        margin-right:113px;
-    }
-}
-
-@media(max-width:500px) {
-    a {
-        padding: 10px;
-        border-right: 1px solid black;
     }
 }
