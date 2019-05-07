@@ -8,7 +8,7 @@ navAni.addEventListener('mouseover', function(event){
 },false)
 
 
-const dblClicker = document.querySelector('.btn');
+/*const dblClicker = document.querySelector('.btn');
 dblClicker.addEventListener('dblclick', function(e){
     event.preventDefault();
     event.target.style.color = 'blue';
@@ -26,4 +26,65 @@ hover.addEventListener('mouseover', function(evenrt){
 const large = document.querySelectorAll('.profile');
 large.addEventListener('dblclick', function(e){
     large.classlist.toggle('.grow');
-})
+})*/
+
+
+
+class TabLink {
+    constructor (tab) {
+      this.tab = tab;
+      
+      this.tabData = this.tab.dataset.tab;
+      
+      this.tabContent = document.querySelectorAll(`.content[data-tab="${this.tabData}"]`)
+      
+      this.tabContent = Array.from(this.tabContent).map(content => new TabContent(content));
+
+      this.tabElement.addEventListener('click', () => this.tabClick());
+      
+      
+      }
+    tabClick() {
+        const tabs = document.querySelectorAll('.tab-links')
+
+        tabs.forEach( function (tab) {
+            tabs.classList.remove('.active-tab')
+        }) 
+
+        const contents = document.querySelectorAll('.content')
+
+        contents.forEach(function (content) {
+            content.style.display = 'none';
+            console.log(content)
+          })
+
+          this.tabElement.classList.add('.active-tab');
+        console.log(this.tabElement)
+
+        this.contents.forEach(content => content.selectCard());
+        console.log(this.contents)
+
+    }
+  }
+  
+  
+  class TabContent {
+    constructor (content) {
+      this.content = content;
+       
+    }
+    
+    toggleContent() {
+      this.content.classlist.toggle('.change')
+    }
+  }
+  
+  
+  const tabs = document.querySelectorAll('.tab-links .link')
+                      .forEach(tab => new TabLink(tab))
+  
+  const tabContentCards = document.querySelectorAll('.content')
+  
+  tabContentCards.forEach( card => {
+    //prepend the image to the card
+  })
