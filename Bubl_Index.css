@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-items: center;
-    width: 1480px;
+    width: 100%;
+    height:90%;
     margin: 0 auto;
 }
 
@@ -11,8 +12,8 @@ a{
     text-decoration: none;
     margin: 10px 0;
     border-bottom: 2px solid white;
-    width: 150px;
-    padding: 10px;
+    width: 60%;
+    padding: 10%;
     
 }
 
@@ -20,32 +21,32 @@ body {
     background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
     background-repeat: no-repeat;
     height: 100vh;
-
+    margin:0px;
 }
 
 button {
     cursor: pointer;
     background-color: Transparent;
     border-radius: 48%;
-    width: 120px;
+    width: 300%;
     height: 30px;
     border: 1px solid white;
 
 }
 
 .Nav{
-    width: 1480px;
-    margin-top: 250px;
-    margin-left: 50px;
+    width: 100%;
+    margin-top: 25%;
+    margin-left: 5%;
 }
 
 .Nav-header {
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
-    padding-right: 20px;
-    margin-top: 40px;
-    margin-left:40px;
+    padding-bottom: 2%;
+    padding-right: 2%;
+    margin-top: 4%;
+    margin-left:4%;
     
 }
 
@@ -53,28 +54,28 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 1180px;
-    padding-top: 250px;
-    padding-right: 100px;
+    width: 80%;
+    padding-top: 25%;
+    padding-right: 10%;
     
     
 }
 
 .Welcome h1 {
     text-align: center;
-    width:1180px;
-    padding-right: 40px;
+    width: 80%;
+    padding-right: 4%;
     
 }
 
 .Welcome .test {
-    margin-right: 50px;
+    margin-right: 5%;
     align-items: center;
 }
 
 .Welcome .button {
-    margin-top: 50px;
-    padding-right: 40px;
+    margin-top: 50%;
+    padding-right: 40%;
 }
 
 
@@ -85,9 +86,9 @@ button {
 @media(max-width: 1024px) {
     .container-product-page {
         display: flex;
-
         flex-direction: row;
-        width: 1024px;
+        width: 100%;
+        height:70%;
         margin-bottom: 0px;
     }
 }
@@ -105,7 +106,7 @@ button {
 
 @media(max-width:1024px) {
     a {
-        padding: 20px;
+        padding: 3%;
     }
 }
 
@@ -115,7 +116,8 @@ button {
         
     }
     .Nav {
-        width: 512px;
+        width: 50%;
+        height:50%;
     }
 }
 
@@ -123,9 +125,9 @@ button {
 @media(max-width:1024px) {
     .Welcome{
         margin-right: 0px;
-        width:512px;
-        padding-right:200px;
-        margin-top: 50px;
+        width:50%;
+        padding-right:20%;
+        margin-top: 5%;
 
     }
 }
@@ -137,11 +139,11 @@ button {
         margin-right: 0px;
         padding-right: 0px;
         padding-left: 0px;
-        width: 600px;
+        width: 60%;
     
     }
     .Welcome h1 {
-        width: 600px; 
+        width: 60%; 
     }
     
 }
@@ -150,7 +152,7 @@ button {
     .Welcome .test {
         text-align: left;
         margin:0px;
-        padding-left: 30px;
+        padding-left: 3%;
         
     }
 }
@@ -158,9 +160,9 @@ button {
 @media(max-width:1024px) {
     .Welcome .button {
         margin: 0px;
-        width: 100px;
-        padding-top: 50px;
-        padding-right: 23px;
+        width: 10%;
+        padding-top: 5%;
+        padding-right: 3%;
         
     }
 }
@@ -170,6 +172,16 @@ button {
 
 
 /*MOBILE*/
+
+@media(max-width: 500px) {
+    .container-product-page {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height:90%;
+        margin: 0px;
+    }
+}
 
 
 @media(max-width: 500px) {
@@ -187,19 +199,10 @@ button {
 }
 
 
-@media(max-width: 500px) {
-    .container-product-page {
-        display: flex;
-        flex-direction: column;
-        max-width: 500px;
-        margin: 0px;
-    }
-}
-
 @media(max-width:500px) {
     .Nav{
         margin:0px;
-        width: 500px;
+        width: 100%;
     }
     .Nav-header{
         display: flex;
@@ -218,19 +221,19 @@ button {
         margin-left: 50px;
         margin-right:0px;
         padding: 0;
-        width: 400px;
+        width: 80%;
 
     }
     .Welcome .h1 {
         margin-left: 0px;
-        width: 500px;
+        width: 100%;
     }
     .Welcome .test {
         
         margin-left: 0px;
     }
     .Welcome h1 {
-        width: 500px; 
+        width: 100%; 
         padding: 0px;
     }
     
