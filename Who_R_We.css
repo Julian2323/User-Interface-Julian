@@ -2,7 +2,8 @@
     display: flex;
     flex-direction: row;
     justify-items: center;
-    width: 1280px;
+    width: 100%;
+    height: 90%;
     margin: 0 auto;
 }
 
@@ -35,18 +36,22 @@ body {
     margin: 0px;
 }
 
-.mini-container{
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    margin-right: 0px;
-    margin-left: 300px;
-    width:400px;
+.component-container {
+  width: 40%;
+  margin-top: 10%;
+}
+
+.card-container{
+  width:100%;
+}
+.tabs {
+  width: 100%;
 }
 
 .Nav{
     margin-top: 250px;
     margin-left: 0px;
+    width: 30%;
 }
 
 
@@ -128,7 +133,7 @@ body {
     .container_Who_R_We-page {
         display: flex;
         flex-direction: row;
-        width: 1024px;
+        width: 100%;
         margin-bottom: 0px;
     }
 }
@@ -154,10 +159,23 @@ body {
         
     }
     .Nav {
-        width: 512px;
+        width: 35%;
     }
 }
+@media(max-width:1024px) {
 
+  .component-container {
+    width: 40%;
+    margin-top: 8%;
+  }
+
+  .card-container{
+    width:100%;
+  }
+  .tabs {
+    width: 100%;
+  }
+}
 @media(max-width:1024px) {
     .mini-container{
         margin-right: 500px;
@@ -201,7 +219,7 @@ body {
 @media(max-width:500px) {
     .Nav{
         margin:0px;
-        width: 500px;
+        width: 100%;
     }
     .Nav-header{
         display: flex;
@@ -212,16 +230,6 @@ body {
     }
 }
 
-@media(max-width:500px) {
-    .mini-container {
-        margin: 0px;
-        margin-top: 50px;
-        margin-left: 70px;
-        padding: 0px;
-        width:400px;
-        align-items: center;
-    }
-}
 
 @media(max-width:500px) {
     .title {
@@ -338,14 +346,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 100%;
     height: 47px;
     background-color: #fff;
-  }
-  @media (min-width: 1280px) {
-    .tabs {
-      width: 1280px;
-    }
   }
   .tabs .topics {
     display: flex;
@@ -389,11 +391,7 @@ body {
     margin-top: 16px;
     flex-wrap: wrap;
   }
-  @media (min-width: 1200px) {
-    .cards-container {
-      width: 1200px;
-    }
-  }
+  
   .cards-container .card {
     border-bottom: 1px solid lightgrey;
     display: flex;
@@ -401,7 +399,7 @@ body {
     align-items: none;
     flex-direction: column;
     background-color: #fff;
-    width: 200px;
+    width: 40%;
     margin-bottom: 16px;
     padding: 24px;
   }
@@ -430,58 +428,6 @@ body {
     letter-spacing: 1px;
     font-weight: bold;
   }
-  .carousel {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    height: 500px;
-    position: relative;
-    overflow: hidden;
-    margin-top: 16px;
-  }
-  @media (min-width: 1200px) {
-    .carousel {
-      width: 1200px;
-    }
-  }
-  .carousel .left-button,
-  .carousel .right-button {
-    display: flex;
-    justify-content: center;
-    align-items: none;
-    flex-direction: row;
-    color: #fff;
-    background-color: #333;
-    font-size: 40px;
-    border-radius: 50%;
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-  }
-  .carousel .left-button:hover,
-  .carousel .right-button:hover {
-    color: #333;
-    background-color: #fff;
-    border: 2px solid #333;
-  }
-  .carousel .left-button {
-    top: 50%;
-    left: 25px;
-    transform: translate(0, -50%);
-  }
-  .carousel .right-button {
-    top: 50%;
-    right: 25px;
-    transform: translate(0, -50%);
-  }
-  .carousel img {
-    width: 100%;
-    display: none;
-  }
-
 
   @media(max-width:500px) {
     .topics {
@@ -494,7 +440,7 @@ body {
     }
 
     .card {
-        width: 150px;
+        width: 15%;
         
     }
   }
