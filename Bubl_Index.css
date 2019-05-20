@@ -7,6 +7,7 @@
     margin: 0 auto;
 }
 
+
 a{
     color:  black;
     text-decoration: none;
@@ -15,6 +16,18 @@ a{
     width: 60%;
     padding: 10%;
     
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size:1.25rem;
+}
+
+p{
+    font-size:1rem;
 }
 
 body {
@@ -35,18 +48,19 @@ button {
 }
 
 .Nav{
-    width: 100%;
-    margin-top: 25%;
-    margin-left: 5%;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 0%;
 }
 
 .Nav-header {
     display: flex;
     flex-direction: column;
-    padding-bottom: 2%;
-    padding-right: 2%;
-    margin-top: 4%;
-    margin-left:4%;
+    padding-bottom: 20px;
+    padding-right: 0px;
+    margin-bottom:0px;
+    width:60%;
+    min-width: 200px;
     
 }
 
@@ -55,8 +69,8 @@ button {
     flex-direction: column;
     align-items: center;
     width: 80%;
-    padding-top: 25%;
-    padding-right: 10%;
+    padding-top: 10%;
+    padding-right: 25%;
     
     
 }
@@ -74,7 +88,7 @@ button {
 }
 
 .Welcome .button {
-    margin-top: 50%;
+    margin-top: 30%;
     padding-right: 40%;
 }
 
@@ -91,26 +105,18 @@ button {
         height:70%;
         margin-bottom: 0px;
     }
-}
 
-
-
-@media(max-width: 1024px) {
     body {
         background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
         background-repeat: no-repeat;
         height: 100vh;
         margin: 0px;
     }
-}
 
-@media(max-width:1024px) {
     a {
-        padding: 3%;
+        padding: 20px;
     }
-}
 
-@media(max-width:1024px) {
     .Nav-header {
         margin-bottom:0px;
         
@@ -119,10 +125,7 @@ button {
         width: 50%;
         height:50%;
     }
-}
 
-
-@media(max-width:1024px) {
     .Welcome{
         margin-right: 0px;
         width:50%;
@@ -130,9 +133,7 @@ button {
         margin-top: 5%;
 
     }
-}
 
-@media(max-width:1024px) {
     .Welcome .h1 {
         margin-bottom: 0px;
         margin-left: 0px;
@@ -146,23 +147,20 @@ button {
         width: 60%; 
     }
     
-}
 
-@media(max-width:1024px) {
     .Welcome .test {
         text-align: left;
         margin:0px;
         padding-left: 3%;
         
     }
-}
 
-@media(max-width:1024px) {
     .Welcome .button {
         margin: 0px;
         width: 10%;
         padding-top: 5%;
         padding-right: 3%;
+        min-width: 50px;
         
     }
 }
@@ -211,22 +209,21 @@ button {
         padding: 5px;
         padding: 0;
         top:0;
+        width:100%;
       
     }
-}
 
-
-@media(max-width: 500px) {
     .Welcome{
-        margin-left: 50px;
+        margin-left: 0px;
         margin-right:0px;
-        padding: 0;
-        width: 80%;
+        margin-bottom:20%;
+        padding: 0px;
+        width: 100%;
 
     }
     .Welcome .h1 {
         margin-left: 0px;
-        width: 100%;
+        width: 20%;
     }
     .Welcome .test {
         
@@ -235,6 +232,9 @@ button {
     .Welcome h1 {
         width: 100%; 
         padding: 0px;
+    }
+     .Welcome .button {
+        margin-right: 90px;
     }
     
 }
