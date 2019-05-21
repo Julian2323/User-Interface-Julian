@@ -43,17 +43,11 @@ body {
   margin-top: 8%;
   margin-right: 25%;
   width: 50%;
-
-  width: 40%;
   margin-top: 10%;
 }
 
 .card-container{
   width:100%;
-}
-.tabs {
-  width: 100%;
-
 }
 
 .Nav{
@@ -80,8 +74,6 @@ body {
     .card {
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
-        width: 50%;
-        height:30%;
     }
     .card:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -137,6 +129,7 @@ body {
     background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
     background-repeat: no-repeat;
     height: 100vh;
+    min-height: 100vh;
     margin: 0px;
 
   
@@ -160,7 +153,8 @@ body {
 }*/
 .tabs .topics {
   display: flex;
-  justify-content: none;
+  /*justify-content: none;*/
+  width:100%;
   align-items: center;
   flex-direction: row;
 }
@@ -208,8 +202,8 @@ body {
   flex-direction: column;
   background-color: #fff;
   width: 40%;
-  height: 20%;
-  min-height: 125px;
+  height: 15%;
+  min-height: 100px;
   margin-bottom: 16px;
   padding: 12px;
 }
@@ -263,13 +257,6 @@ body {
     }
 
 
-    body {
-        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
-        background-repeat: no-repeat;
-        height: 100vh;
-        margin: 0px;
-    }
-
     a {
         padding: 20px;
     }
@@ -288,6 +275,7 @@ body {
   .component-container {
     width: 100%;
     margin-right: 15%;
+    margin-top:5%;
   }
 
   .card-container{
@@ -300,9 +288,17 @@ body {
 }
 
 
+/*@media(max-width:600px) {
+  .component-container {
+    margin-top: 0px;
+    margin-right:130px;
+  }
+}*/
+
+
 /* MOBILE */
 
-@media(max-width: 500px) {
+@media(max-width: 600px) {
     .container_Who_R_We-page {
         display: flex;
         flex-direction: column;
@@ -310,12 +306,6 @@ body {
         margin: 0px;
     }
 
-    body {
-        background: linear-gradient(20deg, #4405AA 25%, #80B2C9 80%);
-        background-repeat: no-repeat;
-        height: 100vh;
-        margin: 0px;
-    }
     a {
         padding: 5px;
         margin: 0px;
@@ -336,26 +326,38 @@ body {
       top:0;
   }
 
-}
+    .component-container {
+      height: 100%;
+      margin-top: 20px;
+    }
 
+    .cards-container .card {
+      min-height: 50px;
+      flex-direction: row;
+    }
+
+    .cards-container .card .headline {
+      width:50px;
+    }
+
+    .cards-container .card .author {
+      width:100px;
+      margin-top:10px;
+      margin-right:12px;
+    }
+
+    .tabs {
+      max-width: 500px;
+    }
 
     .title {
         margin: 0px;
-        margin-bottom: 8%;
+        margin-bottom: 0%;
         padding:0px;
         padding-right: 0px;
         width:100%;
     }
 
-    .component-container {
-      height:100%;
-      width:100%;
-    }
-
-    .card-container .card{
-      width:25px;
-      height:25px;
-    }
 
     .profile-container {
         display:flex;
@@ -378,7 +380,6 @@ body {
 
 
     .topics {
-        position: absolute;
         top: 3;
         width: 100%;
     }
